@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="top_bar">
+        <table>
+            <tr>
+                <td><img src="https://png.pngtree.com/png-clipart/20190614/original/pngtree-set-of-e-commerce-icon-with-outline-png-image_3702074.jpg"></td>
+                <td><a href="#Home">Home</a></td>
+                <td>
+                    <select name="category" id="category">
+                        <option value="">All</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="clothing">Clothing</option>
+                        <option value="home-apliances">Home Appliances</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="search_bar">
+                        <p>Search something here...</p>
+                        <input type="text">
+                    </div>
+                </td>
+                <td>
+                    <button class="dark-mode-toggle" onclick="toggleDarkMode()">Dark Mode</button>
+                </td>
+                <td>
+                    <a href="https://www.youtube.com/"><img src="https://img.freepik.com/premium-vector/shopping-cart-logo-icon_567288-1132.jpg"></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <section class="Home" id="Home">
+        <h1>Welcome, <br>to our page <br>E-Commerce Website</h1>
+    </section>
+
+    <section class="Electronics" id="electronics">
+        <h2>Electronics</h2>
+        <div class="products-container">
+            <div class="product">
+                <img src="https://avstore.in/cdn/shop/files/1.AVStore-Denon-AH-C630-W-Front-View-With-Charging-Case-Black.jpg?v=1708340888">
+                <h3>Wireless Earbuds</h3>
+                <p>$49.99</p>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm4DJc_328R3drlTblRftXrWs9T6uMukH1eg&s">
+                <h3>SmartWatch</h3>
+                <p>$89.99</p>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0FVte7a5M0krYGY7wesaW5i5YLdSGxrxhRw&s">
+                <h3>Bluetooth Speaker</h3>
+                <p>$34.99</p>
+            </div>
+            <div class="product">
+                <img src="https://abmgroup.in/cdn/shop/products/43NU7100_grande.jpg?v=1571751604">
+                <h3>4K Smart TV</h3>
+                <p>$499.99</p>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/616fdRSET7L._AC_UF1000,1000_QL80_.jpg">
+                <h3>Gaming Keyboard</h3>
+                <p>$79.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Clothing" id="clothing">
+        <h2>Clothing</h2>
+        <div class="products-container">
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgxI2-aa4anVvfXoZCW8TDQBsNNqgjCPkgmw&s">
+                <h3>Men's Casual Slim Fit T-Shirt</h3>
+                <p>$25.34</p>
+            </div>
+            <div class="product">
+                <img src="https://st1.bollywoodlife.com/wp-content/uploads/2024/06/comfortable-summer-dresses.jpg">
+                <h3>Women's Summer Dress</h3>
+                <p>$300.10</p>
+            </div>
+            <div class="product">
+                <img src="https://images.bestsellerclothing.in/data/selected/07-oct-2024/155642603_g1.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto">
+                <h3>Unisex Hooded Sweatshirt</h3>
+                <p>$239.99</p>
+            </div>
+            <div class="product">
+                <img src="https://buffalojackson.com/cdn/shop/products/driggs-leather-jacket-brown-34_84aeadd1-3b56-4ff1-8b7f-9918d4d60bdc_800x.jpg?v=1652455901">
+                <h3>Men's Leather Jacket</h3>
+                <p>$129.99</p>
+            </div>
+            <div class="product">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2021/6/AF/RS/JD/26489940/kalenji-womens-run-cushion-shoes-500x500.jpg">
+                <h3>Women's Running Shoes</h3>
+                <p>$99.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Home-Appliances" id="home-apliances">
+        <h2>Home Appliances</h2>
+        <div class="products-container">
+            <div class="product">
+                <img src="https://glenindia.com/cdn/shop/files/1st_700x700.jpg?v=1728993438">
+                <h3>Air Fryer</h3>
+                <p>$129.33</p>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjcordHkmazxwEMF4nPOPFf_Q5JO_-pic42w&s">
+                <h3>Robot Vacuum Cleaner</h3>
+                <p>$199.99</p>
+            </div>
+            <div class="product">
+                <img src="https://www.ikea.com/in/en/images/products/vaermd-microwave-oven-ikea-300-black__1337364_pe947844_s5.jpg">
+                <h3>Microwave Oven</h3>
+                <p>$79.99</p>
+            </div>
+            <div class="product">
+                <img src="https://www.wonderchef.com/cdn/shop/files/6799471_1024x1024.jpg?v=1735753171">
+                <h3>Electric Kettle</h3>
+                <p>$29.99</p>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/81skhWMDoPL._AC_UF894,1000_QL80_.jpg">
+                <h3>Blender for Smoothies and Shakes</h3>
+                <p>$49.99</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
